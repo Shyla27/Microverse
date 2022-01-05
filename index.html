@@ -4,12 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-
-    <title>Microverse</title>
+    <title>Forns</title>
 </head>
 <body>
-    <h1>Hello World, we are software developers!</h1>
+    
+    <h1 id="title"> Microverse Forms Trial</h1>
+    <p id="description"> Thank you for taking the time to help us improve the platform.  </p>
+
+    <form id="survey-form"> 
+        <label for="name" id="name-label"> Name  </label>
+                <input id="name" placeholder="Name" name="name" type="text">
+                <br>
+
+                <label for="name" id="email-label"> Email   </label>
+                <input id="email"  placeholder="email" name="name" type="email">
+                <br>
+
+                <label for="name" id="number-label"> Number  </label>
+                <input id="number" placeholder="Number"  name="name" type="number">
+                <br>
+
+               
+                <label for="courses" > Choose a Course </label>
+                <select name="courses"  id="dropdown">
+
+
+                    <option value="Python">Python</option>
+
+
+
+                    <option value="html">HTML</option>
+                    <option value="Java">JAva</option>
+
+                    <option value="JavaScript">JavaScript</option>
+                </select>
+                <p>Would you recommend Our Course to a friend?</p>
+
+               <input type="radio" name= "Coding Experience" value="Begginer" >
+                <label for="Begginer">Begginer</label>
+                    <input type="radio" name= "Coding Experience" value="Intermediate" >
+                    <label for="Intermediate">Intermediate</label>
+                        <input type="radio" name= "Coding Experience" value="Senior" >
+                        <label for="Senior">Senior</label>
+
+
+                        <p>What would you like to see improved? (Check all that apply</p>
+
+                        <input type="checkbox" name="Front-end Projects" value=" Front-end Projects">
+                        <label for="Front-end Projects">Front-end Projects</label>
+
+                        <br>
+                        <input type="checkbox" name="Front-end Projects" value="Back-end Projects">
+                        <label for="Front-end Projects">Back-end Projects</label>
+<br>
+
+                        <input type="checkbox" name="Front-end Projects" value=" Front-end Projects">
+                        <label for="Front-end Projects">Challenges</label>
+
+<br>
+                        <input type="checkbox" name="Front-end Projects" value=" Open Source Community">
+                        <label for="Front-end Projects">Open Source Community</label>
+<br>
+
+
+                        <textarea id="textare" name="textarea" rows="2" cols="50">
+                            At Microverse you will learn how to make a website.
+                            </textarea
+br
+
+                            <button  type="button"> Save Work  </button>
+
+    </form>
 
 </body>
 </html>
